@@ -1,0 +1,48 @@
+.steps {
+  &__title {
+    text-align: left;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+
+    &--primary {
+      font-size: 3.2em;
+      line-height: 1.1;
+      margin: auto;
+    }
+
+    &--secondary {
+      font-size: 3.0em;
+      line-height: 1.1;
+      margin: auto;
+      color: $primary-color;
+    }
+  }
+
+  &__content {
+    min-height: 210px;
+  }
+
+  &__list {
+    list-style: decimal;
+  }
+
+  &__list-item {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+
+    &--warning {
+      color: #b60000;
+    }
+
+    &--small {
+      font-size: 1rem;
+    }
+  }
+}
